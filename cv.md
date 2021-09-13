@@ -42,6 +42,7 @@
 ## Code Examples
 
 JavaScript
+
 ---
 ```
 decodeMorse = function(morseCode){
