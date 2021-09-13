@@ -36,3 +36,27 @@
 
 * Russian (Native Speaker)
 * English (~B1-B2, B1 on EPAM Language exams)
+
+---
+
+## Code Examples
+
+```
+decodeMorse = function(morseCode){
+   var words=morseCode.split("   ");
+   var result="";
+   for (let i=0;i<words.length;i++)
+   {
+      let letters=words[i].split(" ");
+      for (let j=0;j<letters.length;j++)
+      {
+        if (letters[j]!="")  
+        {
+          result+=MORSE_CODE[letters[j]];  
+        }
+      }
+      if (i+1<words.length && words[i]!="") result+=" ";
+  }
+   return result;
+}
+```
