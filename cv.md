@@ -41,6 +41,8 @@
 
 ## Code Examples
 
+JavaScript
+---
 ```
 decodeMorse = function(morseCode){
    var words=morseCode.split("   ");
