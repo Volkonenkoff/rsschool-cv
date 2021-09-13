@@ -16,7 +16,7 @@
 
 ---
 
-##Skills
+## Skills
 
 * Java + Spring
 * PostgreSQL, Redis
