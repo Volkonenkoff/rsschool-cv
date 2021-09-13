@@ -30,3 +30,9 @@
 
 *  At the moment, I am a bachelor’s degree graduate in the direction of “Computer Science and Computer Engineering” at the St. Petersburg State Electrotechnical University “LETI” named after V. I. Ulyanov (Lenin).
 
+---
+
+## Language skills
+
+* Russian (Native Speaker)
+* English (~B1-B2, B1 on EPAM Language exams)
