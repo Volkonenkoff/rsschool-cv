@@ -1,2 +1,2 @@
 # rsschool-cv
-CV of mine
+https://Volkonenkoff.github.io/rsschool-cv/
