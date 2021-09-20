@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, height=device-height, minimum-scale=1.0">
+    <title>Volkonenkov.CV</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img id="avatar" src="pictures/avatar.png" alt="There should be me, but.." title="That's me :)" width="250" height="250">
+        <h1>Svyatoslav Volkonenkov</h1>
+      </figure>
+    </header>
+    <aside>
+      <nav>
+        <ul>
+          <li id="menu-point"> &#9658;
+            <ul id="links">
+              <li>
+                <a href="#about">About me</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#lang-skills">Language Skills</a>
+              </li>
+              <li>
+                <a href="#code-examp">Code Examples</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <hr>
+      <section id="about">
+        <h2>About me</h2>
+        <ul>
+          <li>
+            My goal is to get the skills of front-end development from the beginning to the end,
+            to find my favorite job with a good and pleasant team
+          </li>
+          <li>
+            I had an internship from the university in EPAM in the direction of Java development,
+            now I want to try the other side of development :)
+          </li>
+          <li>
+            If I'm really interested in something (and I'm interested in a lot of things),
+            then I'm ready to devote a lot of time to this and I will learn faster than usual
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Java + Spring</li>
+          <li>PostgreSQL, Redis</li>
+          <li>HTML5, CSS3, JS</li>
+          <li>Git, GitFlow, GitHub</li>
+          <li>Adobe Photoshop, Autodesk Sketchbook</li>
+        </ul>
+      </section>
+      <hr>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            At the moment, I am a bachelor's degree graduate in the direction of "Computer Science and Computer Engineering"
+            at the St. Petersburg State Electrotechnical University "LETI" named after V. I. Ulyanov (Lenin).
+          </li>
+          <li>
+            I have a certificate with the highest score on the completion
+            of HTML, CSS courses on the
+            <a href="https://stepik.org/cert/797841">Stepik platform</a>
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <section id="lang-skills">
+        <h2>Language Skills</h2>
+        <ul>
+          <li>Russian (Native speaker)</li>
+          <li>English (B1 on EPAM exam)</li>
+        </ul>
+      </section>
+      <hr>
+      <section id="code-examp">
+        <h2>Simple Code Examples</h2>
+        <h4>JavaScript</h4>
+        <pre>
+          <code>
+            decodeMorse = function(morseCode)
+            {
+              var words=morseCode.split("   ");
+              var result="";
+              for (let i=0;i &lt; words.length;i++)
+              {
+                let letters = words[i].split(" ");
+                for (let j=0;j &lt; letters.length;j++)
+                {
+                  if (letters[j]!="")
+                  {
+                    result+=MORSE_CODE[letters[j]];
+                  }
+                }
+                if (i+1 &lt; words.length && words[i]!="") result+=" ";
+              }
+              return result;
+            }
+          </code>
+        </pre>
+      </section>
+    </main>
+    <footer>
+      <section id="contacts">
+        <h4>Contacts: </h4>
+        <ul>
+          <li>Telephone: +7 (904) 361-64-38</li>
+          <li>E-mail: akumian@yandex.ru, volkonenkow@gmail.com</li>
+          <li>Vk: <a href="https://vk.com/akumian">My page on Social Media</a></li>
+        </ul>
+        <a href="https://github.com/Volkonenkoff">
+          <img src="logos/github.svg" alt="My GitHub" title="Me on GitHub">
+        </a>
+        <a href="https://rs.school/js/">
+          <img src="logos/rs_school_js.svg" alt="RS School" title="RS School Course">
+        </a>
+      </section>
+      <p>Made in 2021</p>
+    </footer>
+  </body>
+</html>
